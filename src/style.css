@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "BukaBird";
+  src: url("/fonts/Buka Bird.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DancingScript";
+  src: url("/fonts/DancingScript-VariableFont_wght.ttf") format("truetype");
+}
+
+h1 {
+  font-family: "BukaBird", sans-serif;
+}
+
+h2 {
+  font-family: "DancingScript", cursive;
+}
