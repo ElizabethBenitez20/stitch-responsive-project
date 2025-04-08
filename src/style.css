@@ -47,7 +47,8 @@ section {
   padding: 100px 0;
 }
 
-#section-2 {
+#section-2,
+.phrase {
   padding-top: 0px;
 }
 
@@ -65,7 +66,8 @@ header {
   padding: 200px 0;
 }
 
-header h1 {
+header h1,
+.ohana-text {
   font-family: "BukaBird", sans-serif;
   font-weight: 700;
   font-size: 150px;
@@ -148,6 +150,15 @@ main p {
   line-height: 1.5;
   color: #272044;
   opacity: 0.7;
+}
+
+.phrase h1 {
+  text-align: center;
+  font-size: 32px;
+}
+
+.ohana-text {
+  background-image: url("/images/img-footer.jpg");
 }
 
 footer {
