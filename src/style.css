@@ -10,14 +10,29 @@
 
 body {
   font-family: "Times New Roman", Times, serif;
-  background-image: url("../images/Fondo.jpg");
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 0px;
 }
 
 .container {
   max-width: 1400px;
   margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-description {
+  text-align: center;
 }
 
 header {
@@ -78,9 +93,70 @@ header a {
   background: rgba(255, 255, 255, 0.516);
 }
 
+header a:hover {
+  background-color: rgba(79, 157, 240, 0.484);
+  transition: all 1ms ease-in-out;
+}
+
+footer {
+  color: white;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url("../images/img-footer.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.7;
+  margin-right: 20px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: white;
+  opacity: 0.7;
+}
+
+.social-links {
+  display: block;
+  text-align: center;
+}
+
+.imagen {
+  width: 75px;
+  height: auto;
+  margin: 0px 10px;
+  vertical-align: middle;
+}
+
 @media (max-width: 900px) {
   header {
     padding: 60px 0;
+    background-position: 40% center;
   }
 
   header h1 {
