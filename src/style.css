@@ -25,6 +25,10 @@ body {
   text-align: center;
 }
 
+.text-iframe-responsive {
+  display: none;
+}
+
 .grid {
   display: grid;
   grid-gap: 64px;
@@ -198,6 +202,15 @@ main p {
   padding: 0 30px 30px;
 }
 
+.youtube-embeds {
+  margin: 30px 0;
+}
+
+iframe {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 .btn {
   display: block;
   color: black;
@@ -298,5 +311,13 @@ hr {
 
   .img-responsive {
     height: auto;
+  }
+
+  .text-iframe-responsive {
+    display: block;
+  }
+
+  .text-iframe {
+    display: none;
   }
 }
